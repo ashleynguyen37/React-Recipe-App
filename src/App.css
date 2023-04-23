@@ -56,5 +56,27 @@ table {
 
 /* Column Size for thead */
 
+th:nth-child(4),
+th:nth-child(5) {
+  width: 30%;
+}
+th:nth-child(-n + 3),
+th:nth-child(6) {
+  width: 10%;
+}
 
 /* Column size for tbody */
+
+td:nth-child(4),
+td:nth-child(5) {
+  width: 30%;
+}
+td:nth-child(-n + 3),
+td:nth-child(6) {
+  width: 10%;
+}
+
+/* Column styling */
+
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
